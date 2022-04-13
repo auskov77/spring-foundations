@@ -9,7 +9,10 @@ public class Main {
         ApplicationContext context
                 = new ClassPathXmlApplicationContext("context.xml");
 
-        Animal piglet = context.getBean("pig", Animal.class);
-        piglet.say();
+//        Animal piglet = context.getBean("pig", Animal.class);
+//        piglet.say();
+
+        KingFarmer farmer = context.getBean("farmer", KingFarmer.class);
+        farmer.hi();
     }
 }
