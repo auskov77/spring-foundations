@@ -6,11 +6,11 @@ public class CoffeeServiceImpl implements CoffeeService {
 
     @Override
     public Coffee getCoffeeByPrice(double price) {
-        if ((price > 5) && (price < 7)) {
-             return new Coffee("Espresso");
-        }else if ((price>=7)&&(price<10)){
+        if ((price == 5.5)) {
+            return new Coffee("Espresso");
+        } else if ((price == 7.2)) {
             return new Coffee("Americano");
-        }else if ((price>=10)&&(price<12)){
+        } else if ((price == 8.8)) {
             return new Coffee("Cappuccino");
         }
         return new Coffee("Не верная оплата за кофе");

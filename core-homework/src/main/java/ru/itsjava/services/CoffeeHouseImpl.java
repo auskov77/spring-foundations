@@ -16,7 +16,7 @@ public class CoffeeHouseImpl implements CoffeeHouse {
     @Override
     public void giveOutCoffeeAccordingToPriceList() {
         System.out.println("Привет!");
-        System.out.println("Введите стоимость кофе: ");
+        System.out.println("Введите стоимость кофе: Espresso - 5.5, Americano - 7.2, Cappuccino - 8.8");
         double price = Double.parseDouble(inputService.input());
         System.out.println("Ваш кофе: " + coffeeService.getCoffeeByPrice(price));
     }
