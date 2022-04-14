@@ -11,6 +11,7 @@
     <modules>
         <module>core</module>
         <module>programmer-app-xml-config</module>
+        <module>core-homework</module>
     </modules>
 
     <properties>
