@@ -8,6 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="core" />
+        <module name="core-java-based" />
+        <module name="programmer-app-java-based-config" />
         <module name="programmer-app-xml-config" />
         <module name="core-homework" />
       </profile>
