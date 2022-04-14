@@ -14,6 +14,7 @@
         <module>core-homework</module>
         <module>core-java-based</module>
         <module>programmer-app-java-based-config</module>
+        <module>programmer-app-java-based-config-homework</module>
     </modules>
 
     <properties>
