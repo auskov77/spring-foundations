@@ -19,6 +19,7 @@
         <module>programmer-app-annotation-based-config</module>
         <module>programmer-app-annotation-based-config-homeworke</module>
         <module>lifecycle-and-beans-scope</module>
+        <module>proxy</module>
     </modules>
 
     <properties>
