@@ -10,11 +10,11 @@
 
     <context:annotation-config/>
 
-    <bean class="quoters.PostProxyInvokerContextListener"/>
-    <bean class="quoters.ProFilingHandlerBeanPostProcessor"/>
-    <bean class="quoters.InjectRandomIntAnnotationBeanPostProcessor"/>
+    <bean class="ru.itsjava.quoters.PostProxyInvokerContextListener"/>
+    <bean class="ru.itsjava.quoters.ProFilingHandlerBeanPostProcessor"/>
+    <bean class="ru.itsjava.quoters.InjectRandomIntAnnotationBeanPostProcessor"/>
 
-    <bean class="quoters.TerminatorQuoter" id="terminatorQuoter">
+    <bean class="ru.itsjava.quoters.TerminatorQuoter" id="terminatorQuoter">
         <property name="message" value="I'll be back"/>
     </bean>
 

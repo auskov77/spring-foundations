@@ -1,4 +1,4 @@
-package quoters;
+package ru.itsjava.quoters;
 
 public class ProfilingController implements ProfilingControllerMBean{
     private boolean enabled = true;

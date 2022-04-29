@@ -22,6 +22,7 @@
         <module>proxy</module>
         <module>aop</module>
         <module>aop-homework</module>
+        <module>spring-ripper-lecture-by-evgeny-borisov</module>
     </modules>
 
     <properties>

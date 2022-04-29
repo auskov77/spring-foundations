@@ -1,4 +1,4 @@
-package quoters;
+package ru.itsjava.quoters;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

@@ -1,4 +1,4 @@
-package quoters;
+package ru.itsjava.quoters;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
