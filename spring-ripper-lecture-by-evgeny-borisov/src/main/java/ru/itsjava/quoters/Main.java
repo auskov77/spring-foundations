@@ -8,7 +8,7 @@ public class Main {
                 = new ClassPathXmlApplicationContext("context.xml");
 //        while (true) {
 //            Thread.sleep(100);
-//            context.getBean(Quoter.class).sayQuote();
+            context.getBean(Quoter.class).sayQuote();
 //        }
     }
 }
